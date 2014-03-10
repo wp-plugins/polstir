@@ -1,4 +1,4 @@
-=== Polsir ===
+=== Polstir ===
 Contributors: polstir
 Tags: polls
 Requires at least: 3.1
