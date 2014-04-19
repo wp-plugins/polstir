@@ -37,15 +37,19 @@ This section describes how to install the plugin and get it working.
 3. Upload the `polstir` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
 
-== Usage ==
+= Usage =
 
 Embed a poll using the shortcode `[polstir]` and the poll id. For example, to embed a poll with the url `http://beta.polstir.com/polstirmedia/WprcRTTygnQtSdvFP/` use the shortcode `[polstir WprcRTTygnQtSdvFP]`
 
 == Screenshots ==
 
-1. Sample embedded poll with comments
+1. Publishing a post with a poll shortcode
+2. Sample embedded poll with comments
 
 == Changelog ==
 
 = 1.0 =
 * Enable shortcode embedding
+
+= 1.1 = 
+* Updated embed script and documentation
