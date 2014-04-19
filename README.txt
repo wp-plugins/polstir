@@ -2,8 +2,8 @@
 Contributors: polstir
 Tags: polls
 Requires at least: 3.1
-Tested up to: 3.8.1
-Stable tag: 1.0.0
+Tested up to: 3.9.0
+Stable tag: 1.1.1
 
 Embed polls created with Polstir using the shortcode [polstir].
 
