@@ -11,6 +11,10 @@ Embed polls created with Polstir using the shortcode [polstir].
 
 Embed polls created with Polstir using the shortcode [polstir].
 
+= Usage =
+
+Embed a poll using the shortcode `[polstir]` and the poll id. For example, to embed a poll with the url `http://beta.polstir.com/enigmalomania/Tvt8c887XbLFK5bcm` use the shortcode `[polstir id="Tvt8c887XbLFK5bcm"]`
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
@@ -36,10 +40,6 @@ This section describes how to install the plugin and get it working.
 2. Extract the `polstir` directory to your computer
 3. Upload the `polstir` directory to the `/wp-content/plugins/` directory
 4. Activate the plugin in the Plugin dashboard
-
-= Usage =
-
-Embed a poll using the shortcode `[polstir]` and the poll id. For example, to embed a poll with the url `http://beta.polstir.com/polstirmedia/WprcRTTygnQtSdvFP/` use the shortcode `[polstir WprcRTTygnQtSdvFP]`
 
 == Screenshots ==
 
