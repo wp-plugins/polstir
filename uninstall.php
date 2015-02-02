@@ -6,7 +6,7 @@
  * @author    Polstir Admin <admin@polstir.com>
  * @license   GPL-2.0+
  * @link      http://polstir.com
- * @copyright 2014 Zazoola, Inc
+ * @copyright 2015 Zazoola, Inc
  */
 
 // If uninstall not called from WordPress, then exit

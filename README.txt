@@ -2,8 +2,8 @@
 Contributors: polstir
 Tags: polls
 Requires at least: 3.1
-Tested up to: 3.9.0
-Stable tag: 1.2.0
+Tested up to: 4.1.0
+Stable tag: 1.4.0
 
 Embed polls created with Polstir using the shortcode [polstir].
 
@@ -11,9 +11,14 @@ Embed polls created with Polstir using the shortcode [polstir].
 
 Embed polls created with Polstir using the shortcode [polstir].
 
+= Demo =
+
+[View a demo](http://polstir-demo.comyr.com/
+) of an embedded poll. View the full poll [page](https://beta.polstir.com/howdesign/dL5nQw9Ts729oPqaj) for comparison.
+
 = Usage =
 
-Embed a poll using the shortcode `[polstir]` and the poll id. For example, to embed a poll with the url `http://beta.polstir.com/enigmalomania/Tvt8c887XbLFK5bcm` use the shortcode `[polstir id="Tvt8c887XbLFK5bcm"]`
+Embed a poll using the shortcode `[polstir]` and the poll id. For example, to embed a poll with the url `https://beta.polstir.com/howdesign/dL5nQw9Ts729oPqaj` use the shortcode `[polstir id="dL5nQw9Ts729oPqaj"]`
 
 == Installation ==
 

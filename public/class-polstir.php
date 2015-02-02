@@ -6,7 +6,7 @@
  * @author    Polstir Admin <admin@polstir.com>
  * @license   GPL-2.0+
  * @link      http://polstir.com
- * @copyright 2014 Zazoola, Inc
+ * @copyright 2015 Zazoola, Inc
  */
 
 /**
@@ -24,7 +24,7 @@ class Polstir {
 	 *
 	 * @var     string
 	 */
-	const VERSION = '1.2.0';
+	const VERSION = '1.4.0';
 
 	/**
 	 * The variable name is used as the text domain when internationalizing strings
@@ -82,7 +82,7 @@ class Polstir {
 	 * @since    1.1.0
 	 */
 	public function enqueue_scripts() {
-		wp_enqueue_script('polstir-embed-script', 'http://cdn.polstir.com/script/polstir-embed.js');
+		wp_enqueue_script('polstir-embed-script', 'https://cdn.polstir.com/script/polstir-embed.js');
 	}
 
 	/**
