@@ -24,7 +24,7 @@ class Polstir {
 	 *
 	 * @var     string
 	 */
-	const VERSION = '1.4.0';
+	const VERSION = '1.5.0';
 
 	/**
 	 * The variable name is used as the text domain when internationalizing strings

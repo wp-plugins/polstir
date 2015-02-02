@@ -3,7 +3,7 @@ Contributors: polstir
 Tags: polls
 Requires at least: 3.1
 Tested up to: 4.1.0
-Stable tag: 1.4.0
+Stable tag: 1.5.0
 
 Embed polls created with Polstir using the shortcode [polstir].
 
@@ -61,3 +61,6 @@ This section describes how to install the plugin and get it working.
 
 = 1.2 = 
 * Updated screenshots and static assets
+
+= 1.5 = 
+* Updated security and readme
