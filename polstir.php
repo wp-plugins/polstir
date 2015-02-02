@@ -9,13 +9,13 @@
  * @author    Polstir Admin <admin@polstir.com>
  * @license   GPL-2.0+
  * @link      http://polstir.com
- * @copyright 2014 Zazoola, Inc
+ * @copyright 2015 Zazoola, Inc
  *
  * @wordpress-plugin
  * Plugin Name:       Polstir
  * Plugin URI:        http://beta.polstir.com/
  * Description:       Embed polls created with Polstir using the shortcode [polstir].
- * Version:           1.2.0
+ * Version:           1.5.0
  * Author:            Polstir
  * Author URI:        http://polstir.com/
  * Text Domain:       plugin-name-locale
