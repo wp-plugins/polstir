@@ -24,7 +24,7 @@ class Polstir {
 	 *
 	 * @var     string
 	 */
-	const VERSION = '1.5.0';
+	const VERSION = '2.0.0';
 
 	/**
 	 * The variable name is used as the text domain when internationalizing strings
@@ -95,12 +95,28 @@ class Polstir {
 	 * @since    1.0.0
 	 */
 	public function polstir_embed_code($attrs) {
-    extract( shortcode_atts( array(
-    	'id' => 'wordpress-embed'
-    ), $attrs));
+		$attrs = shortcode_atts( array(
+    	'id' => 'wordpress-embed',
+    	'image' => '1',
+    	'question' => '1',
+    	'comments' => '1',
+    	'theme' => 'light',
+    	'style' => 'normal'
+		), $attrs);
+    
+    extract($attrs);
+
+    $opts = '';
+
+    foreach ($attrs as $key => $value) {
+    	$opts .= "data-poll-{$key}='{$value}' ";
+		}
+    
     $code = '<div data-poll-id="';
     $code .= $id;
-    $code .= '" id="polstir-embed" style="height:100%;width:100%;"></div>';
+    $code .= '" ';
+    $code .= $opts;
+    $code .= 'class="polstir-embed" style="height:100%;width:100%;"></div>';
 		return $code;
 	}
 
