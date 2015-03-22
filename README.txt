@@ -2,8 +2,8 @@
 Contributors: polstir
 Tags: polls
 Requires at least: 3.1
-Tested up to: 3.9.0
-Stable tag: 1.2.0
+Tested up to: 4.1.1
+Stable tag: 2.0.0
 
 Embed polls created with Polstir using the shortcode [polstir].
 
@@ -11,9 +11,29 @@ Embed polls created with Polstir using the shortcode [polstir].
 
 Embed polls created with Polstir using the shortcode [polstir].
 
+= Demo =
+
+[View a demo](http://demo.polstir.com/
+) of an embedded poll. View the full poll [page](https://beta.polstir.com/howdesign/dL5nQw9Ts729oPqaj) for comparison.
+
 = Usage =
 
-Embed a poll using the shortcode `[polstir]` and the poll id. For example, to embed a poll with the url `http://beta.polstir.com/enigmalomania/Tvt8c887XbLFK5bcm` use the shortcode `[polstir id="Tvt8c887XbLFK5bcm"]`
+Embed a poll using the shortcode `[polstir]` and the poll id. For example, to embed a poll with the url `https://beta.polstir.com/howdesign/dL5nQw9Ts729oPqaj` use the shortcode `[polstir id="dL5nQw9Ts729oPqaj"]`
+
+To customize the appearance of the embedded poll, additional options can be set in the shortcode. The full list of shortcode defaults is as follows:
+
+`[polstir id="wordpress-embed" image="1" question="1" comments="1" theme="light" style="normal"]`
+
+The following poll sections can be hidden by setting them to "0":
+
+* image **1, 0** *(defaults to 1)*
+* question **1, 0** *(defaults to 1)*
+* comments **1, 0** *(defaults to 1)*
+
+Theme and style options can also be set:
+
+* theme **light, dark** *(defaults to light)*
+* style **normal, compact** *(defaults to normal)*
 
 == Installation ==
 
@@ -56,3 +76,9 @@ This section describes how to install the plugin and get it working.
 
 = 1.2 = 
 * Updated screenshots and static assets
+
+= 1.5 = 
+* Updated security and readme
+
+= 2.0 = 
+* Added advanced embed features (theme, style, and display options)
