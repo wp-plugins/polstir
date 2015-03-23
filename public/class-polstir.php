@@ -24,7 +24,7 @@ class Polstir {
 	 *
 	 * @var     string
 	 */
-	const VERSION = '2.0.0';
+	const VERSION = '2.0.1';
 
 	/**
 	 * The variable name is used as the text domain when internationalizing strings
@@ -82,7 +82,7 @@ class Polstir {
 	 * @since    1.1.0
 	 */
 	public function enqueue_scripts() {
-		wp_enqueue_script('polstir-embed-script', 'https://cdn.polstir.com/script/polstir-embed.js');
+		wp_enqueue_script('polstir-embed-script', 'https://api.polstir.com/embed/poll.js');
 	}
 
 	/**

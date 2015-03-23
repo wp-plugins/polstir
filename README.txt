@@ -3,7 +3,7 @@ Contributors: polstir
 Tags: polls
 Requires at least: 3.1
 Tested up to: 4.1.1
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 
 Embed polls created with Polstir using the shortcode [polstir].
 
@@ -14,7 +14,7 @@ Embed polls created with Polstir using the shortcode [polstir].
 = Demo =
 
 [View a demo](http://demo.polstir.com/
-) of an embedded poll. View the full poll [page](https://beta.polstir.com/howdesign/dL5nQw9Ts729oPqaj) for comparison.
+) of an embedded poll. View the full poll [page](https://beta.polstir.com/polstirmedia/wordpress-embed) for comparison.
 
 = Usage =
 

@@ -15,7 +15,7 @@
  * Plugin Name:       Polstir
  * Plugin URI:        http://beta.polstir.com/
  * Description:       Embed polls created with Polstir using the shortcode [polstir].
- * Version:           2.0.0
+ * Version:           2.0.1
  * Author:            Polstir
  * Author URI:        http://polstir.com/
  * Text Domain:       plugin-name-locale
